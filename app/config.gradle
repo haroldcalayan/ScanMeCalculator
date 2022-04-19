@@ -1,0 +1,9 @@
+ext.configs = [
+        applicationName     : "Scan Me Calculator",
+        applicationId       : "com.haroldcalayan.scanmecalculator",
+        versionCode         : 1,
+        versionName         : "0.0.1",
+        minSdk              : 21,
+        targetSdk           : 30,
+        compileSdk          : 31
+]
