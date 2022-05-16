@@ -32,8 +32,10 @@ ext {
 
     // Google
     googleVersion1_5_0 = "1.5.0"
+    googleVersion19_0_0 = "19.0.0"
     googleDependencies = [
-            material                : "com.google.android.material:material:$googleVersion1_5_0"
+            material                : "com.google.android.material:material:$googleVersion1_5_0",
+            vision                  : "com.google.android.gms:play-services-vision:$googleVersion19_0_0"
     ]
 
     // Timber

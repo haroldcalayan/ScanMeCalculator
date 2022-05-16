@@ -18,17 +18,27 @@
             android:id="@+id/textview_data"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Input: 2+3\nResult: 5"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/button_add_input"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.05"/>
+            app:layout_constraintVertical_bias="0.05"
+            tools:text="2+3 = 5"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_add_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Add Input"
+            app:layout_constraintBottom_toTopOf="@+id/button_calculate"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"/>
